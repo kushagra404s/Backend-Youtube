@@ -1,9 +1,10 @@
-import dotenv from "dotenv";
-import express from "express";
+// import dotenv from "dotenv"
+// dotenv.config({ path: "./.env" });
 import {app} from './app.js'
 
-
-dotenv.config();
+// "scripts": {
+//     "dev": "nodemon src/index.js"
+//    },
 
 import connectDB from "./db/index.js";
 
